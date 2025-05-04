@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+
+.menu-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+.menu-list li {
+    display: inline-block;
+}
+
+.menu-list li a {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 8px 12px;
+    background-color: grey;
+    border: 1px dotted black;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.recipe-img {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.heading-title {
+    font-size: 25px;
+}
+
+.ingredients-list {
+    list-style-type: none;
+}
+
+.steps-list {
+    margin-left: auto;
+    list-style-position: inside;
+}
+
+.btn-back {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 12px;
+    background-color: grey;
+    border: 1px dotted black;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
